@@ -72,14 +72,14 @@ Here `geeks` is a collection in which I have stored documents.
 ... id : 1
 ... },
 ... {
-... First_Name : "Jishan",
-... Last_Name : "Bhattacharya",
+... First_Name : "Alistair",
+... Last_Name : "Hey",
 ... Phone : "9080706050",
 ... id : 2
 ... },
 ... {
-... First_Name : "Archisman",
-... Last_Name : "Saha",
+... First_Name : "Alex",
+... Last_Name : "Ciro",
 ... Phone : "9192939495",
 ... id : 3
 ... }
@@ -94,8 +94,8 @@ Here `geeks` is a collection in which I have stored documents.
 ```
 > db.geeks.find()
 { "_id" : ObjectId("6100483bb398f4a34021554b"), "First_Name" : "Rwitesh", "Last_Name" : "Bera", "Phone" : "9876543210", "id" : 1 }
-{ "_id" : ObjectId("6100483bb398f4a34021554c"), "First_Name" : "Jishan", "Last_Name" : "Bhattacharya", "Phone" : "9080706050", "id" : 2 }
-{ "_id" : ObjectId("6100483bb398f4a34021554d"), "First_Name" : "Archisman", "Last_Name" : "Saha", "Phone" : "9192939495", "id" : 3 }
+{ "_id" : ObjectId("6100483bb398f4a34021554c"), "First_Name" : "Alistair", "Last_Name" : "Hey", "Phone" : "9080706050", "id" : 2 }
+{ "_id" : ObjectId("6100483bb398f4a34021554d"), "First_Name" : "Alex", "Last_Name" : "Ciro", "Phone" : "9192939495", "id" : 3 }
 ```
 
 ### Display the results in formatted way
